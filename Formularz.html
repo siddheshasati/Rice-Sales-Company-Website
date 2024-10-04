@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="utf-8">
+<title>żRyż - Formularz Zamówieniowy</title>
+<meta name="descritption" content="Formularz zamówieniowy produktów firmy żRyż">
+<meta name="viewport" content="width=devide-width, initial-scale=1">
+<meta name="keywords" content="Ryż, gotowanie, kuchnia, Azja">
+<script src="https://kit.fontawesome.com/425b95c0e0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styl.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+<a href="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Glowna.html" class="logo"><img class="logo" src="logo.png" alt="logo"></a>
+<nav>
+<ul class="linki">
+<li><a href="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Produkty.html">Produkty</a></li>
+<li><a href="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Kontakt.html">Kontakt</a></li>
+</ul>
+</nav>
+<form action="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Formularz.html"><button>Formularz zamówieniowy</button></form>
+</header> 
+<section class="forum">
+
+<div class="formularz">
+<br>
+<h1>Formularz Zamówieniowy</h1>
+<br>
+<br>
+<form action="odbior.php" method="post">
+
+<div class="row1">
+<div class="col-25">
+<label for="Imię" class="foka">Imię</label>
+</div>
+<div class="col-75">
+<input type="text" id="Imię" name="Imię" placeholder="Twoje imię..." class="pole">
+</div>
+</div>
+
+<div class="row1">
+<div class="col-25">
+<label for="Nazwisko" class="foka">Nazwisko</label>
+</div>
+<div class="col-75">
+<input type="text" id="Nazwisko" name="Nazwisko" placeholder="Twoje nazwisko..." class="pole">
+</div>
+</div>
+
+<div class="row1">
+<div class="col-25">
+<label for="Adres_zamieszkania" class="foka">Adres zamieszkania</label>
+</div>
+<div class="col-75">
+<input type="text" id="Adres_zamieszkania" name="Adres zamieszkania" placeholder="Twój adres zamieszkania..." class="pole">
+</div>
+</div>
+
+<div class="row1">
+<div class="col-25">
+<label for="Numer_telefonu" class="foka">Numer telefonu</label>
+</div>
+<div class="col-75">
+<input type="text" id="Numer_telefonu" name="Numer telefonu" placeholder="Twój numer telefonu..." class="pole">
+</div>
+</div>
+
+<div class="row1">
+<div class="col-25">
+<label for="Adres_e-mail" class="foka">Adres e-mail</label>
+</div>
+<div class="col-75">
+<input type="text" id="Adres_e-mail" name="Adres e-mail" placeholder="Twój adres e-mail..." class="pole">
+</div>
+</div>
+
+<div class="row1">
+<div class="col-25">
+<label for="Województwo" class="foka">Województwo</label>
+</div>
+<div class="col-75">
+<select name="Województwo" id="Województwo" class="kawa">
+  <option value="Dolnośląskie">Dolnośląskie</option>
+  <option value="Kujawsko-pomorskie">Kujawsko-pomorskie</option>
+  <option value="Lubelskie">Lubelskie</option>
+  <option value="Lubuskie">Lubuskie</option>
+  <option value="Łódzkie">Łódzkie</option>
+  <option value="Małopolskie">Małopolskie</option>
+  <option value="Mazowieckie">Mazowieckie</option>
+  <option value="Opolskie">Opolskie</option>
+  <option value="Podkarpackie">Podkarpackie</option>
+  <option value="Podlaskie">Podlaskie</option>
+  <option value="Pomorskie">Pomorskie</option>
+  <option value="Śląskie">Śląskie</option>
+  <option value="Świętokrzyskie">Świętokrzyskie</option>
+  <option value="Warmińsko-mazurskie">Warmińsko-mazurskie</option>
+  <option value="Wielkopolskie">Wielkopolskie</option>
+  <option value="Zachodniopomorskie">Zachodniopomorskie</option>
+</select>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="row1">
+<div class="col-25">
+<label class="foka">Wybór produktów</label>
+</div>
+<div class="col-75">
+<input type="checkbox" id="Ryż_Basmati" name="ryz1" value="Ryż Basmati">
+  <label for="Ryż_Basmati" class="kawa">&nbsp;&nbsp;Ryż Basmati</label><br>
+  <input type="checkbox" id="Ryż_Jaśminowy" name="ryz2" value="Ryż Jaśminowy">
+  <label for="Ryż_Jaśminowy" class="kawa">&nbsp;&nbsp;Ryż Jaśminowy</label><br>
+  <input type="checkbox" id="Ryż_Parboiled" name="ryz3" value="Ryż Parboiled">
+  <label for="Ryż_Parboiled" class="kawa">&nbsp;&nbsp;Ryż Parboiled</label><br>
+  <input type="checkbox" id="Ryż_Długoziarnisty" name="ryz4" value="Ryż Długoziarnisty">
+  <label for="Ryż_Długoziarnisty" class="kawa">&nbsp;&nbsp;Ryż Długoziarnisty</label><br>
+  <input type="checkbox" id="Ryż_Okrągoziarnisty" name="ryz5" value="Ryż Okrągoziarnisty">
+  <label for="Ryż_Okrągoziarnisty" class="kawa">&nbsp;&nbsp;Ryż Okrągoziarnisty</label><br>
+  <input type="checkbox" id="Ryż_Brązowy" name="ryz6" value="Ryż Ryż Brązowy">
+  <label for="Ryż_Brązowy" class="kawa">&nbsp;&nbsp;Ryż Brązowy</label><br>
+  <input type="checkbox" id="Ryż_Dziki" name="ryz7" value="Ryż Dziki">
+  <label for="Ryż_Dziki" class="kawa">&nbsp;&nbsp;Ryż Dziki</label>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="row1">
+<div class="col-25">
+<label class="foka">Częstotliwość</label>
+</div>
+<div class="col-75">
+  <input type="radio" id="Jednorazowe" name="Częstotliwość" value="Jednorazowe">
+  <label for="Jednorazowe" class="kawa">&nbsp;&nbsp;Jednorazowe</label><br>
+  <input type="radio" id="Cotygodniowe" name="Częstotliwość" value="Cotygodniowe">
+  <label for="Cotygodniowe" class="kawa">&nbsp;&nbsp;Cotygodniowe</label><br>
+  <input type="radio" id="Comiesięczne" name="Częstotliwość" value="Comiesięczne">
+  <label for="Comiesięczne" class="kawa">&nbsp;&nbsp;Comiesięczne</label>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="row1">
+<div class="col-25">
+<label class="foka">Uwagi</label>
+</div>
+<div class="col-75">
+<textarea cols="65" rows="6" name="Uwagi" placeholder="Dodatkowe uwagi..." class="pole"></textarea>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="formacja">
+<input type="submit" value="Złóż zamówienie" class="wyslij">
+</div>
+</form>
+
+
+<br>
+<br>
+
+<h5 class="font">Masz wątpliwości? Skontaktuj się z nami!</h5>
+<div class="font">
+<form action="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Kontakt.html"><button>Kontakt</button></form>
+</div>
+<br>
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="footer-basic">
+        <footer>
+		<br>
+           <div class="social"><a href="https://www.instagram.com"><i class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com"><i class="icon ion-social-snapchat"></i></a><a href="https://www.twitter.com/home"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com"><i class="icon ion-social-facebook"></i></a></div>
+           <ul class="linki2">
+<li><a href="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Produkty.html">Produkty</a></li>
+<li><a href="https://foka.umg.edu.pl/~s48230/Semestr3/Witryna/Kontakt.html">Kontakt</a></li>
+</ul>
+		   <p class="copyright">żRyż © 2023</p>
+		   <br>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
